@@ -13,6 +13,8 @@ import AppError from '@shared/errors/AppError';
 
 import swaggerDocs from '@config/swagger';
 
+import '@shared/container';
+
 import routes from './routes';
 
 const app = express();
